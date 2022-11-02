@@ -3,7 +3,13 @@ import './Teacher.css'
 const Teacher1 = (props) => {
     return(
         <div>
-            <h1 className="ta">Hello {props.name1}</h1>
+            <div>
+                <h1 className="ta">Hello {props.name1}</h1>
+            </div>
+            <div>
+                <button className="btn-primary" type="submit">submit</button>
+            </div>
+            
            
         </div>
 

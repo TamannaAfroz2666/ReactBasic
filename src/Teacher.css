@@ -1,3 +1,8 @@
 .ta {
     background-color: red;
 }
+.btn-primary{
+    width: 50px;
+    color: brown;
+    background-color: aquamarine;
+}
