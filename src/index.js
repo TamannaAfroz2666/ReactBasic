@@ -6,11 +6,12 @@ import  ReactDOM  from "react-dom";
 // import Team1 from './Team'
 // import Garage from './gourje';
 // import ContainerFluidExample from './FromValidation';
-import UseStateFunc from './UseState';
+// import UseStateFunc from './UseState';
+import EffectStateFunc from './EffectState';
     
 
 
 // let el = <h1>Hello </h1>
 // ReactDOM.render(<App/>, document.getElementById("root"));
 // ReactDOM.render(<ContainerFluidExample/>, document.getElementById("root"));
-ReactDOM.render(< UseStateFunc />, document.getElementById("root"));
+ReactDOM.render(< EffectStateFunc />, document.getElementById("root"));
