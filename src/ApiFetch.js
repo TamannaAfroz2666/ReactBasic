@@ -16,7 +16,7 @@ const ApiFetch =() =>{
     return (
         <div>
          {
-            post1.map((item,i) =>{
+            post1.slice(0, 1).map((item,i) =>{
                 // console.log(i)
                 return (
 
@@ -29,6 +29,10 @@ const ApiFetch =() =>{
                 )
             })
          }
+         <div>
+         {/* <h1>Brand name is : {post1[0].brand} </h1> */}
+
+         </div>
          
          <div>
             <UseStateObject/>
