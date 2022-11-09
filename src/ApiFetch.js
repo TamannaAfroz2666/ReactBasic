@@ -24,7 +24,10 @@ const ApiFetch =() =>{
                     
                             <p>{item.brand}</p>
                             <p>{item.category}</p>
+
                             <p> {item.brand} </p>
+
+
                    
                      </div>
                 )
