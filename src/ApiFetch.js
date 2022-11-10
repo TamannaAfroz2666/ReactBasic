@@ -2,6 +2,7 @@ import React, { useEffect, useState }  from "react";
 import axios from "axios";
 import UseStateObject from "./UseStateObject";
 import UseStateArray from "./UseStateArray";
+import WorkByS from "./WorkByS";
 const ApiFetch =() =>{
     const [post1, setPost] = useState([]);
 
@@ -44,6 +45,7 @@ const ApiFetch =() =>{
             <h1 style={{color:"red"}}>Call use State array </h1>
             <UseStateArray/>
          </div>
+         <WorkByS/>
         </div>
     )
 }
